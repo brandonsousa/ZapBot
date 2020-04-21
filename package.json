@@ -1,0 +1,30 @@
+{
+  "name": "zapbot",
+  "version": "1.0.0",
+  "description": "Bot to send message on Whatsapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonsousa/ZapBot.git"
+  },
+  "keywords": [
+    "bot",
+    "zap",
+    "whatsapp",
+    "zapzap",
+    "selenium"
+  ],
+  "author": "Brandon Sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonsousa/ZapBot/issues"
+  },
+  "homepage": "https://github.com/brandonsousa/ZapBot#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
