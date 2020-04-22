@@ -1,7 +1,7 @@
 # ZapBot
-Bot to send message on Whatsapp, developed with NodeJS, HTML and CSS
+Bot to send message on Whatsapp, developed with NodeJS, SQLite, HTML, CSS and JS
 
-#### SETUP
+### SETUP
 1. to use this system you need to have the [google chrome](http://chromedriver.storage.googleapis.com/index.html) driver in your **system path**, always use the same version of your browser, checking in 'help -> about chrome: Version'
 
 2. clone this project
@@ -12,5 +12,15 @@ Bot to send message on Whatsapp, developed with NodeJS, HTML and CSS
 3. enter the folder and run
 ```
     npm install
+```
+
+4. on terminal run
+```
+    npx knax migration:latest
+```
+
+5. when done
+```
+    npm start
 ```
 
