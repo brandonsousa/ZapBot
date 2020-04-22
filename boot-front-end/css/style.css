@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    src: url('../fonts/Azonix.otf');
+    font-family: "logo";
+}
+
+body {
+    background: #282a2d;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    color: #b0b2b3;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.forms {
+    width: 45vw;
+    height: 50vh;
+   
+}
+
+.forms form {
+    margin-bottom: 30px;
+}
+
+.contatos {
+    width: 47vw;
+    
+}
+
+.item-list {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    /* border: solid 1px red; */
+    align-items: flex-start;
+}
+
+.button-remove {
+    border: none;
+    color: white;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9B30F9), to(#84e));
+    background: linear-gradient(#9B30F9, #84e);
+    width: 10%;
+    cursor: pointer;
+    border-radius:4px ;
+    height: 100%;
+}
+
+.button-remove:hover {
+    background: #0E1013;
+}
+.input {
+    background: #1B1D20;
+    color: #ffffff;
+    border-top-color: rgb(14, 16, 19);
+    border-right-color: rgb(14, 16, 19);
+    border-bottom-color: rgb(14, 16, 19);
+    border-left-color: rgb(14, 16, 19);
+    display: block;
+    width: 100%;
+    border: 2px solid #0E1013;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+    line-height: 1.2;
+    padding: 0.625rem 0 0.625rem 0.625rem;
+    margin-bottom: 0.625rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    outline: none;
+    -webkit-transition: border-color .3s;
+    transition: border-color .3s;
+}
+
+.input:hover, .input:focus {
+    border-color: white;
+    outline: none;
+}
+
+.button {
+    background: -webkit-gradient(linear, left top, left bottom, from(#9B30F9), to(#84e));
+    background: linear-gradient(#9B30F9, #84e);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.2;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    padding: 0.8375rem 1.25rem;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    min-width: 130px;
+}
+
+.button:hover {
+    background: #0E1013;
+}
